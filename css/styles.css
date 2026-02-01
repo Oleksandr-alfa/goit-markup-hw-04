@@ -71,6 +71,7 @@ img {
     border-bottom: 1px solid #E7E9FC;
     margin: auto;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+max-width: 1440px;
 }
 
 
@@ -184,6 +185,7 @@ gap: 40px;
     padding-bottom: 188px;
     padding-top: 188px;
     margin: auto;
+    max-width: 1440px;
 }
 
 .section-hero .container {
@@ -224,6 +226,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .section-featurs {
     background-color: #fff;
     margin: auto;
+    max-width: 1440px;
 }
 
 .visually-hidden {
@@ -269,6 +272,7 @@ gap: 24px;
 .section-teams {
     background-color: #F4F4FD;
     margin: auto;
+    max-width: 1440px;
 }
 
 .section-teams .container {
@@ -340,6 +344,7 @@ gap: 24px;
 
 .section-portfolio {
     margin: auto;
+    max-width: 1440px;
 }
 .section-portfolio .container {
     flex-direction: column;
@@ -412,6 +417,7 @@ box-shadow: 0 1px 6px rgba(46, 47, 66, 0.08), 0 1px 1px rgba(46, 47, 66, 0.16), 
 .footer-section {
     background-color: #2E2F42;
     margin: auto;
+    max-width: 1440px;
 }
 .footer-section .container {
    padding: 100px 0;
