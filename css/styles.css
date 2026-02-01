@@ -2,8 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #FFFFFF;
-    width: 1440px;
-    margin: auto;
+    margin: 0;
 }
 
 h1,
@@ -70,8 +69,11 @@ img {
 
 .page-header {
     border-bottom: 1px solid #E7E9FC;
+    width: 1440px;
+    margin: auto;
     box-shadow: 0 2px 1px 0 rgb(46, 47, 66, 0.08), 0 1px 1px 0 rgb(46, 47, 66, 0.16), 0 1px 6px 0 rgb(46, 47, 66, 0.08);
 }
+
 
 .page-header .container { 
 justify-content: space-between;
@@ -165,6 +167,7 @@ gap: 40px;
     width: 1440px;
     padding-bottom: 188px;
     padding-top: 188px;
+    margin: auto;
 }
 
 .section-hero .container {
@@ -202,6 +205,8 @@ gap: 40px;
 
 .section-featurs {
     background-color: #fff;
+    width: 1440px;
+    margin: auto;
 }
 
 .visually-hidden {
@@ -244,6 +249,8 @@ gap: 24px;
 }
 .section-teams {
     background-color: #F4F4FD;
+    width: 1440px;
+    margin: auto;
 }
 
 .section-teams .container {
@@ -311,6 +318,11 @@ gap: 24px;
 .social-link .icon:focus,
 .social-link .icon:hover {
     fill: #F4F4FD;
+}
+
+.section-portfolio {
+    width: 1440px;
+    margin: auto;
 }
 .section-portfolio .container {
     flex-direction: column;
@@ -385,6 +397,8 @@ box-shadow: 0 1px 6px rgb(46, 47, 66, 0.08), 0 1px 1px rgb(46, 47, 66, 0.16), 0 
 
 .footer-section {
     background-color: #2E2F42;
+    width: 1440px;
+    margin: auto;
 }
 .footer-section .container {
    padding: 100px 0;
