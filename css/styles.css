@@ -69,7 +69,6 @@ img {
 
 .page-header {
     border-bottom: 1px solid #E7E9FC;
-    width: 1440px;
     margin: auto;
     box-shadow: 0 2px 1px 0 rgb(46, 47, 66, 0.08), 0 1px 1px 0 rgb(46, 47, 66, 0.16), 0 1px 6px 0 rgb(46, 47, 66, 0.08);
 }
@@ -117,6 +116,7 @@ gap: 40px;
     color: #2E2F42;
     text-decoration: none; 
     padding-top: 24px;
+        padding-bottom: 24px;
     position: relative;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -147,7 +147,7 @@ gap: 40px;
     background-color: #404BBF;
     display: block;
     position: absolute;
-   margin-top: 20px;
+   bottom: 0;
 }
 
 .address-list {
@@ -179,8 +179,8 @@ gap: 40px;
     background-color: rgba(46, 47, 66, 0.7);
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/hero-img.jpg");
     background-position: center center;
-    background-size: cover;
-    width: 1440px;
+    background-size: contain;
+    background-repeat: no-repeat;
     padding-bottom: 188px;
     padding-top: 188px;
     margin: auto;
@@ -211,6 +211,7 @@ gap: 40px;
     border-radius: 4px;
     cursor: pointer;
    padding: 16px 32px;
+   box-shadow: 0 4px 4px rgb(0, 0, 0, 0.15);
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -222,7 +223,6 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .section-featurs {
     background-color: #fff;
-    width: 1440px;
     margin: auto;
 }
 
@@ -266,7 +266,6 @@ gap: 24px;
 }
 .section-teams {
     background-color: #F4F4FD;
-    width: 1440px;
     margin: auto;
 }
 
@@ -338,7 +337,6 @@ gap: 24px;
 }
 
 .section-portfolio {
-    width: 1440px;
     margin: auto;
 }
 .section-portfolio .container {
@@ -363,7 +361,7 @@ gap: 24px;
     height: 420px;
    padding-bottom: 32px;
     box-shadow: 0 1px 6px rgb(46, 47, 66, 0.08);
-
+transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .overlay-img {
@@ -395,7 +393,6 @@ color: #F4F4FD;
     letter-spacing: 0.02em;
 }
 .portfolio-card:hover {
-    transition: box-shadow 250ms linear;
 box-shadow: 0 1px 6px rgb(46, 47, 66, 0.08), 0 1px 1px rgb(46, 47, 66, 0.16), 0 2px 1px rgb(46, 47, 66, 0.08);
 }
 .portfolio-card:hover .overlay {
@@ -414,7 +411,6 @@ box-shadow: 0 1px 6px rgb(46, 47, 66, 0.08), 0 1px 1px rgb(46, 47, 66, 0.16), 0 
 
 .footer-section {
     background-color: #2E2F42;
-    width: 1440px;
     margin: auto;
 }
 .footer-section .container {
@@ -452,4 +448,9 @@ box-shadow: 0 1px 6px rgb(46, 47, 66, 0.08), 0 1px 1px rgb(46, 47, 66, 0.16), 0 
 .footer-social-list{
     gap: 16px;
     display: flex;
+}
+
+.footer-social-link .link:focus,
+.footer-social-link .link:hover {
+    background-color: #31d0aa;
 }
