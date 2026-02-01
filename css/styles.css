@@ -60,7 +60,7 @@ img {
     padding-bottom: 120px;
 }
 .container {
-    width: 1158px;
+   max-width: 1158px;
     padding: 0 15px;
     display: flex;
     margin-left: auto;
@@ -376,7 +376,7 @@ overflow: hidden;
 
 .overlay {
     position: absolute;
-    padding: 40px 32px 164px 32px;
+    padding: 40px 32px;
     background-color: #4D5AE5;
     top: 0;
     left: 0;
